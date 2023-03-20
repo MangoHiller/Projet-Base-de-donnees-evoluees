@@ -50,10 +50,12 @@ Faire clic droit dans le dossier table à gauche dans le logiciel sur la table v
 
 ## Schéma des données
 
+![schema](/img/schema.jpeg)
+
 Le grain de processus est la ligne saisie dans le jeu de donnée c'est à dire une Startup avec ses caractéristiques.
 
 1. Table de faits :
-Permet de savoir le nombre de pièces de la maison, le prix de la maison, le nombre de chambres,le nombre de salles de bain et sa note sur 5 sur son état...
+Permet de connaître le montant total des levées de fond pour la startup ainsi que le nombre de levées de fonds.
 
 2. Table de dimension :
 * dim_temps : cette dimension contient des informations temporelles telles que la date de fondation, le mois de fondation, le trimestre de fondation, l'année de fondation, la première et la dernière date de financement. 
@@ -67,5 +69,5 @@ Permet de savoir le nombre de pièces de la maison, le prix de la maison, le nom
 | -------------------------------------------------- | ---------------- |
 | [@MangoHiller](https://github.com/MangoHiller)     | Hugo LEGUILLIER  |
 | [@miranovic](https://github.com/miranovic)         | Imran NAAR       |
-|                                                    | Izzedine issa AHMAT|
+| [@usernameizzedine](https://github.com/usernameizzedine)| Izzedine issa AHMAT|
 | [@XTHunter](https://github.com/XTHunter)           | Gesser RIAHI     |
