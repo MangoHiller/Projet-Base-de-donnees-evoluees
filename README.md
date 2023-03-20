@@ -1,4 +1,3 @@
-
 # Projet base de donnée évoluée
 
 ## Sources : 
@@ -49,6 +48,20 @@ Faire clic droit dans le dossier table à gauche dans le logiciel sur la table v
  :warning:	 Il faudra peut être changer le format des dates nottament pour ```founded_month``` qui de base est au format ```YYYY-MM-DD``` dans le format ```MM```
 5. fin
 
+## Schéma des données
+
+![schema](/img/schema.jpeg)
+
+Le grain de processus est la ligne saisie dans le jeu de donnée c'est à dire une Startup avec ses caractéristiques.
+
+1. Table de faits :
+Permet de connaître le montant total des levées de fond pour la startup ainsi que le nombre de levées de fonds.
+
+2. Table de dimension :
+* dim_temps : cette dimension contient des informations temporelles telles que la date de fondation, le mois de fondation, le trimestre de fondation, l'année de fondation, la première et la dernière date de financement. 
+* dim_geographique : cette dimension contient des informations géographiques telles que le code pays, le code d'état, la région et la ville. 
+* dim_startup : cette dimension permet de connaître le nom de la startup, son url, le marché dans lequel elle opère son status (acquise, fermée ...).
+
 
 ## Authors
 
@@ -56,10 +69,5 @@ Faire clic droit dans le dossier table à gauche dans le logiciel sur la table v
 | -------------------------------------------------- | ---------------- |
 | [@MangoHiller](https://github.com/MangoHiller)     | Hugo LEGUILLIER  |
 | [@miranovic](https://github.com/miranovic)         | Imran NAAR       |
-|                                                    | Izzedine issa AHMAT|
+| [@usernameizzedine](https://github.com/usernameizzedine)| Izzedine issa AHMAT|
 | [@XTHunter](https://github.com/XTHunter)           | Gesser RIAHI     |
-
-
-
-
-
