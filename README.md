@@ -52,12 +52,12 @@ Faire clic droit dans le dossier table à gauche dans le logiciel sur la table v
 
 ## Authors
 
-|                                                    |                  |
+|     Github                                         |                  |
 | -------------------------------------------------- | ---------------- |
 | [@MangoHiller](https://github.com/MangoHiller)     | Hugo LEGUILLIER  |
 | [@miranovic](https://github.com/miranovic)         | Imran NAAR       |
-| [@](https://github.com/miranovic)                  | Izzedine issa AHMAT|
-| [@](https://github.com/miranovic)                  | Gesser RIAHI     |
+|                                                    | Izzedine issa AHMAT|
+| [@XTHunter](https://github.com/XTHunter)           | Gesser RIAHI     |
 
 
 
