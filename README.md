@@ -27,6 +27,9 @@ ligne.index + 1
 
 ### Chargement des données
 ### Avec SQL Develloper :
+#### Création des tables
+Ouvrir le fichier ```create_table.sql``` et exécuter le fichier.
+#### Chargement des données
 Faire clic droit dans le dossier table à gauche dans le logiciel sur la table voulue puis faire import data.
 #### Pour dim_Geographique :
 1. Sélectionnez le fichier "Startup_investments.csv" puis faite suivant.
@@ -47,6 +50,15 @@ Faire clic droit dans le dossier table à gauche dans le logiciel sur la table v
 4. Changer la correspondance pour chaque tuple par exemple ```founded_year avec founded_year``` etc...  
  :warning:	 Il faudra peut être changer le format des dates nottament pour ```founded_month``` qui de base est au format ```YYYY-MM-DD``` dans le format ```MM```
 5. fin
+
+#### Création des VPD
+Ouvrir le fichier vpd.sql et l'exécuter. :warning: la VPD ```vpd_policy``` nécessite la création des rôles ```Directeur``` et ```Utilisateur```.
+```SQL
+CREATE ROLE Directeur;
+--eventuellement donner certains droit à ce rôle.
+--GRANT {system_privileges | object_privileges} TO role_name;
+```
+Pour supprimer les VPD décommenter le code en bas du fichier ```VPD.sql``` puis l'exécuter.
 
 ## Schéma des données
 
